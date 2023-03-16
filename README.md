@@ -1,4 +1,4 @@
-# Project : Car insurance test automation using cypress
+# Project : Insurance Broker System automation using cypress
 
 
 ### Setup Steps: 
