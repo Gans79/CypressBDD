@@ -1,19 +1,48 @@
-Author : Ganesh Ranganathan
-Role : Senior Test Analyst
-Automation Tool : Cypress
+# Project : Car insurance test automation using cypress
 
-Setup Steps: 
+
+### Setup Steps: 
 -------------
 Install NodeJS : https://nodejs.org/en/download/
 Install Yarn : https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
 Install VSCode : https://code.visualstudio.com/download
 
-Test Run Steps:
+### Installing:
 ---------------
-Clone Repo from 
-Navigate to Root and install cypress, cucumber and project dependencies: yarn install 
-Run Test UI : yarn cypress:open
-Run Test CLI : yarn test
+
+Open a command line of your choice and do the following:
+
+1. Clone the repository  `cd` into the project:
+
+   ```bash
+   git clone https://github.com/Gans79/CypressBDD.git
+   ```
+
+2. Install the dependencies, `cd` into the project:
+
+   ```bash
+   yarn install
+   ```
+
+### Running the test:
+---------------
+1. Run Test in UI:
+
+   ```bash
+   yarn cypress:open
+   ```
+
+2. Run Test in CLI on chrome: 
+   ```bash
+   yarn test
+   ```
+
+3. Run Test in CLI headless:
+   
+   ```bash
+   yarn test headless
+   ```
+
 
 
 

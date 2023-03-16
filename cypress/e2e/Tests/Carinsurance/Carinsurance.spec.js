@@ -40,6 +40,10 @@ Then("I will be logged in successfully landing on the home page",() => {
 
 When("I click on Register button",() =>{
     login.clickRegister()
+    
+});
+
+Then("I enter the required information and click Register",() =>{
     register.createUser()
     
 });
@@ -53,8 +57,23 @@ When("I can click on the request quotation tab", () => {
 
 });
 
-Then('I can enter the details with Breakdown "([^"]*)" premium is displayed', (cover) => {
+Then(/^I can enter the details with Breakdown "([^"]*)" premium is displayed$/, (cover) => {
     requestquotation.calculatePremiumCover(cover)
+
+});
+
+When("I can enter the details on the quotation page and click save quotation", () => {
+    requestquotation.saveQuotation()
+
+});
+
+When("I can click on the retrieve quotation tab", () => {
+    retrievequotation.clickQuotationTab()
+
+});
+
+When("I enter the quotation identification number as {string} it is displayed", (idnumber) => {
+    retrievequotation.retrieveId(idnumber)
 
 });
 

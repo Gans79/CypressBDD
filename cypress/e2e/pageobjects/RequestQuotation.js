@@ -40,7 +40,6 @@ class RequestQuotation {
 
     
     saveQuotation(){ 
-        cy.get(selectors.requestQuotationTab).click(),
         cy.get(selectors.incidents).type("Accident"),
         cy.get(selectors.registration).type("DVT77B"),
         cy.get(selectors.mileage).type("50000"),

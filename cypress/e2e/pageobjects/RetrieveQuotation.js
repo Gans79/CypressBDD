@@ -12,12 +12,14 @@ const selectors = {
 class RetrieveQuotation { 
 
    retrieveId(idnumber){
-       cy.get(selectors.retrieveQuotationTab).click()
        cy.get(selectors.idNumber).type(idnumber)
        cy.get(selectors.retrieveBtn).click()
        cy.contains("Retrieve Quotation")
    }
 
+   clickQuotationTab(){
+    cy.get(selectors.retrieveQuotationTab).click()
+}
      
 
 } 

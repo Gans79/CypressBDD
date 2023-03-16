@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "test": "cypress run \"**/*.feature\" --browser chrome --headed"
+    "test": "cypress run \"**/*.feature\" --browser chrome --headed",
+    "test headless": "cypress run \"**/*.feature\" --browser chrome"
   },
   "author": "Ganesh",
   "license": "ISC",
