@@ -3,9 +3,9 @@
 
 ### Setup Steps: 
 -------------
-Install NodeJS : https://nodejs.org/en/download/
-Install Yarn : https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
-Install VSCode : https://code.visualstudio.com/download
+1. Install NodeJS : https://nodejs.org/en/download/
+2. Install Yarn : https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
+3. Install VSCode : https://code.visualstudio.com/download
 
 ### Installing:
 ---------------
