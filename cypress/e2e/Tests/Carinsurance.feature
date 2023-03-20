@@ -20,7 +20,7 @@ Scenario Outline: User is able to request a car insurance quotation
  When I enter "gans79@gmail.com" as email and "Gans5217" as password and click Login 
  Then I will be logged in successfully landing on the home page
  When I can click on the request quotation tab
- Then I can enter the details with Breakdown <cover> premium is displayed
+ Then I can enter the details with Breakdown "<cover>" premium is displayed
 
  Examples:
      |cover    | 
@@ -35,14 +35,13 @@ Scenario: User is able to save a car insurance quotation
  Then I will be logged in successfully landing on the home page
  When I can click on the request quotation tab
  When I can enter the details on the quotation page and click save quotation  
- Then quotation is saved and displayed to the user
 
 Scenario: User is able to Retrieve a car insurance quotation
  Given On the car insurance portal
  When I enter "gans79@gmail.com" as email and "Gans5217" as password and click Login
  Then I will be logged in successfully landing on the home page
  When I can click on the retrieve quotation tab
- When I enter the quotation identification number as "idnumber" it is displayed
+ When I enter the quotation identification number as "12345" it is displayed
 
 
 

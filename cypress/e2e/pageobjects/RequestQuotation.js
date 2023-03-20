@@ -34,7 +34,9 @@ class RequestQuotation {
         cy.get(selectors.registration).type("DVT77B"),
         cy.get(selectors.mileage).type("50000"),
         cy.get(selectors.estimatedValue).type("30000")
-        cy.get(selectors.coverDropDown).contains(cover).click()
+       // cy.get(selectors.coverDropDown).click()
+        cy.get(selectors.coverDropDown).select(cover)
+
 
     }
 
